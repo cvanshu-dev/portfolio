@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ItsDedsec- Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+    
+<!--header-->
+        <nav class="navbar1">
+         <ul class="sidebar">
+            <li onclick=hideSidebar()><a><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(255, 254, 254);transform: ;msFilter:;"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg></a></li>
+            <li><a href="#skills" style="--i:1" class="active">Home</a></li>
+            <li><a href="#about"style="--i:3">About</a></li>
+            <li><a href="#"style="--i:3">Skills</a></li>
+            <li><a href="#portofolio"style="--i:4">Project</a></li>
+            <li><a href="#contact"style="--i:5">Contact</a></li>
+         </ul>
+        </nav>
+   
+
+
+
+    <header class="header">
+        <a href="#" class="logo">Portofolio</a>
+
+        <nav class="navbar">
+         <ul>
+        
+            <li class="hideOnMobile"><a href="#active" style="--i:1" class="active">Home</a></li>
+            <li class="hideOnMobile"><a href="#about"style="--i:3">About</a></li>
+            <li class="hideOnMobile"><a href="#skills"style="--i:3">Skills</a></li>
+            <li class="hideOnMobile"><a href="#portofolio"style="--i:4">Portfolio</a></li>
+            <li class="hideOnMobile"><a href="#contact"style="--i:5">Contact</a></li>
+            <li class="menu-button" onclick=showSidebar()><a><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(255, 254, 254);transform: ;msFilter:;"><path d="M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z"></path></svg></a></li>
+         </ul>
+        </nav>
+    </header>
+
+    <!--Home section-->
+    <section class="home" id="active">
+        
+        <div class="home-content">
+            
+            <h1>INTRO</h1>
+            <h2>Hi, I'm <span class="text"></span></h2>
+            
+            <p>I'm a highly skilled and versatile professional with expertise in video editing, web development, and a deep understanding of Linux and computer systems. With a passion for technology and a commitment to delivering exceptional results, I am well-positioned to excel in dynamic and fast-paced work environments.
+
+            </p>
+
+            <div class="home-icons">
+                <a href="https://www.linkedin.com/in/shivanshu-mishra-347906315/" target="_blank" style="--i:6"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="https://www.instagram.com/theshivanshu_mishra/" target="_blank" style="--i:7"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=917526068690&text&type=phone_number&app_absent=0" target="_blank"   style="--i:9"><i class='bx bxl-whatsapp' ></i></a>
+                
+            </div>
+           
+            
+        </div>
+        <div class="herofront">
+            <img src="/img/herofr.png" alt="Sample Image">
+            <h1>Shivanshu <br> Mishra</h1>
+            
+        </div> 
+    </section>
+
+<!--About--> 
+
+<section class="about" id="about">
+    <h2 class="heading">About <span>Me</span></h2>
+    <div class="about-img">
+        <img src="img/about-img.jpg" alt="">
+        <span class="circle-spin"></span>
+    </div>
+
+    <div class="about-content">
+        <div class="shiva">
+            <h3>SHIVANSHU MISHRA</h3>
+          </div>
+
+        <p>I'm a highly skilled and versatile professional with expertise in video editing, web development, and a deep understanding of Linux and computer systems. With a passion for technology and a commitment to delivering exceptional results, I am well-positioned to excel in dynamic and fast-paced work environments.</p>
+         
+    </div>
+</section>
+
+<!--Skills-->
+
+<!-- skills section design -->
+
+<section class="skills" id="skills">
+        <h2 class="heading">Technical <span>Proficiency</span></h2>
+
+        <div class="black-theme">
+            <div id="switch">
+              <i class="fas fa-sun"></i>
+            </div>
+            <div class="container">
+              <div class="card">
+                <div class="card__top">
+                  <img src="img/webb.jpg" alt="Sky">
+                  <div class="profile__photo">
+                    <img src="img/webdev.jpg" alt="Profile Photo">
+                  </div>
+                </div>
+                <div class="card__content">
+                  <h2>Web Development</h2>
+                  <p><span><i class='bx bxl-html5'></i></span>HTML</p>
+                  <p><span><i class='bx bxl-css3'></i></span>CSS</p>
+                  <p><span><i class='bx bxl-javascript'></i></span><a href="#">Javascript</a></p>
+                </div>
+              </div>
+          
+              <div class="card">
+                <div class="card__top">
+                  <img src="img/vidb.jpg" alt="Sky">
+                  <div class="profile__photo">
+                    <img src="img/vidd.jpg" alt="Profile Photo">
+                  </div>
+                </div>
+                <div class="card__content">
+                  <h2>Video Editing</h2>
+                  <p><span><i class='bx bxl-adobe' ></i></span>Premiere Pro</p>
+                  <p><span><i class='bx bxl-adobe' ></i></span>After Affects</p>
+                  <p><span><i class='bx bxs-video' ></i></span><a href="#">Davinci Resolve</a></p>
+                </div>
+              </div>
+          
+              <div class="card">
+                <div class="card__top">
+                  <img src="img/linbb.jpg" alt="Sky">
+                  <div class="profile__photo">
+                    <img src="img/linux.jpg" alt="Profile Photo">
+                  </div>
+                </div>
+                <div class="card__content">
+                  <h2>Others</h2>
+                  <p><span><i class='bx bx-code-alt' ></i></span>Linux</p>
+                  <p><span><i class='bx bxl-wordpress' ></i></span>Wordpress</p>
+                  <p><span><i class='bx bxl-google' ></i></span><a href="#">Research</a></p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>       
+
+ 
+</section>
+
+
+<!--Portfolio-->
+    <section class="portofolio" id="portofolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portofolio-container">
+            <div class="portofolio-box">
+                <img src="img/portofolio1.jpg" alt="">
+                <div class="portofolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portofolio-box">
+                <img src="img/portofolio2.jpg" alt="">
+                <div class="portofolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portofolio-box">
+                <img src="img/portofolio3.jpg" alt="">
+                <div class="portofolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portofolio-box">
+                <img src="img/portofolio4.jpg" alt="">
+                <div class="portofolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portofolio-box">
+                <img src="img/portofolio5.jpg" alt="">
+                <div class="portofolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portofolio-box">
+                <img src="img/portofolio6.jpg" alt="">
+                <div class="portofolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!--contact us-->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span> Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Full Name" id="name"
+                    class="item" autocomplete="off">
+                   <div class="error-txt">Full Name can't be blank</div>
+                  </div>
+                  <div class="input-field field">
+                    <input type="text" placeholder="Email Address" id="email"
+                    class="item" autocomplete="off">
+                   <div class="error-txt email">Email Address can't be blank</div>
+                </div>
+            </div>
+
+           
+            <div class="input-box">
+            <div class="input-field field">
+                <input type="text" placeholder="Phone Number" id="phone"
+                class="item" autocomplete="off">
+               <div class="error-txt">Phone Number can't be blank</div>
+            </div>
+               <div class="input-field field">
+                <input type="text" placeholder="Subject" id="subject"
+                class="item" autocomplete="off">
+               <div class="error-txt">Subject can't be blank</div>
+            </div>
+            </div>
+        </div>
+            <div class="textarea-field field">
+                <textarea name=""  id="message" cols="30" rows="10"
+                placeholder="Your Message" class="item" autocomplete="off"></textarea>
+               <div class="error-txt">Message  can't be blank</div>
+            </div>
+
+           
+            <button type="submit" class="btn"> Send Message</button>
+            
+
+
+
+
+
+
+           
+        </form>
+    </section>
+
+
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Shivanshu | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#active"><i class='bx bx-chevrons-up' ></i></a>
+        </div>
+    </footer>
+   
+    <script src="index.js"></script>
+
+
+</body>
+</html>
