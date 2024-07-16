@@ -826,6 +826,17 @@ span {
 
 @media (max-width: 768px) {
 
+     .about-img .circle-spin {
+        width: 90%;
+        height: 90%;
+    }
+    .about-img img {
+        width: 80%;
+    }
+    .card {
+        width: 300px;
+    }
+
     .header {
         position: relative;
     }
@@ -842,7 +853,7 @@ span {
     }
 
     .about-content .shiva h3 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     @keyframes shiBgText {
